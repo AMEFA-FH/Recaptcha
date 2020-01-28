@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/agiletechvn/Recaptcha.svg?branch=master)](https://travis-ci.org/agiletechvn/Recaptcha) [![Latest Stable Version](https://poser.pugx.org/crabstudio/recaptcha/v/stable)](https://packagist.org/packages/crabstudio/recaptcha) [![Total Downloads](https://poser.pugx.org/crabstudio/recaptcha/downloads)](https://packagist.org/packages/crabstudio/recaptcha) [![License](https://poser.pugx.org/crabstudio/recaptcha/license)](https://packagist.org/packages/crabstudio/recaptcha)
 # Integrate Google Recaptcha v2 to your CakePHP project
+Loaded by Usercentrics-Cookie-Banner
 
 ## Installation
 
@@ -8,7 +9,7 @@ You can install this plugin into your CakePHP application using [composer](http:
 The recommended way to install composer packages is:
 
 ```
-composer require crabstudio/recaptcha
+composer require amefa-fh/recaptcha
 ```
 
 followed by the command:
@@ -52,7 +53,7 @@ Display recaptcha in your view:
 
 Verify in your controller function
 ```
-    public function forgotPassword() 
+    public function forgotPassword()
     {
         if ($this->request->is('post')) {
             if ($this->Recaptcha->verify()) { // if configure enable = false, it will always return true
@@ -64,3 +65,5 @@ Verify in your controller function
 ```
 
 Done
+
+Don't forget the reCAPTCHA will only load if user accepts it in the Usercentrics-Cookie-Banner
