@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/agiletechvn/Recaptcha.svg?branch=master)](https://travis-ci.org/agiletechvn/Recaptcha) [![Latest Stable Version](https://poser.pugx.org/crabstudio/recaptcha/v/stable)](https://packagist.org/packages/crabstudio/recaptcha) [![Total Downloads](https://poser.pugx.org/crabstudio/recaptcha/downloads)](https://packagist.org/packages/crabstudio/recaptcha) [![License](https://poser.pugx.org/crabstudio/recaptcha/license)](https://packagist.org/packages/crabstudio/recaptcha)
 # Integrate Google Recaptcha v2 to your CakePHP project
-Loaded by Usercentrics-Cookie-Banner
 
 ## Installation
 
@@ -37,6 +36,8 @@ $this->loadComponent('Recaptcha.Recaptcha', [
     'theme' => 'light', // light/dark
     'lang' => 'vi',      // default en
     'size' => 'normal'  // normal/compact
+    'loadMethod' => 'default', //options default => normal include, usercentrics => activation via usercentrics, gtm => user loads it via google tag manager
+    'notLoadedMessage' => "Please allow reCAPTCHA in your privacy settings" //Message if reCAPTCHA not loaded, usercentrics can disable loading
 ]);
 ```
 
@@ -65,5 +66,3 @@ Verify in your controller function
 ```
 
 Done
-
-Don't forget the reCAPTCHA will only load if user accepts it in the Usercentrics-Cookie-Banner

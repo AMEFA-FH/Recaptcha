@@ -26,6 +26,12 @@ class RecaptchaComponent extends Component
         'lang' => 'en',
         'size' => 'normal',
         'httpClientOptions' => [],
+        //Method for loading the Google reCaptcha script.
+        //options default => normal include, usercentrics => activation via usercentrics, gtm => user loads it via google tag manager
+        'loadMethod' => 'default',
+        //Message if reCAPTCHA not loaded, usercentrics can disable loading
+        'notLoadedMessage' => "Please allow reCAPTCHA in your privacy settings"
+
     ];
 
     /**
