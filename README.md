@@ -1,5 +1,7 @@
-[![Latest Stable Version](https://poser.pugx.org/crabstudio/recaptcha/v/stable)](https://packagist.org/packages/amefa-fh/recaptcha) [![Total Downloads](https://poser.pugx.org/crabstudio/recaptcha/downloads)](https://packagist.org/packages/amefa-fh/recaptcha) [![License](https://poser.pugx.org/crabstudio/recaptcha/license)](https://packagist.org/packages/amefa-fh/recaptcha)
+[![Latest Stable Version](https://poser.pugx.org/amefa-fh/recaptcha/v/stable)](https://packagist.org/packages/amefa-fh/recaptcha)
+[![Total Downloads](https://poser.pugx.org/amefa-fh/recaptcha/downloads)](https://packagist.org/packages/amefa-fh/recaptcha)
 # Integrate Google Recaptcha v2 to your CakePHP project
+[![License](https://poser.pugx.org/amefa-fh/recaptcha/license)](https://packagist.org/packages/amefa-fh/recaptcha)
 
 ## Installation
 
